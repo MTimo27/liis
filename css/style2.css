@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+body{
+  margin-top: 3rem;
+  background-color: #D9D9D9;
+}
+
+.colTop {
+  margin-top: 100px;
+   background-color: #081036;
+}
+
+.actv {
+  font-size: 1.2rem;
+  text-align: center;
+}
+h1{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+ h1.nume{
+  font-size: 1.6rem;
+  text-transform: none;
+}
+.figure-caption {
+  font-size: 90%;
+  color: #fff;
+  font-weight: 600;
+}
+
+.img-thumbnail {
+  padding: .2rem;
+  border: 1px solid #081036;
+  border-radius: 0;
+  background-color: #081036;
+}
+
+
+.narrow h1 {
+    font-size: 1.5rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #081036;
+  background-color: #081036;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #260EFF;
+  background-color: #260EFF;
+  color: white;
+}
+
+.butonspecial{
+  margin-top:-40px;
+}
+
+.butonspecial2{
+  margin-top:20px;
+}
+
+.participanti .aug{
+  margin-left:200px;
+}
+
+.participanti .dam{
+  margin-left:40px;
+}
+
+.participanti .lip{
+  margin-left:498px;
+}
+
+
+.table {
+  color:black;
+  font-size:18px;
+  background-color: white;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  margin-top:80px;
+}
+
+.table td{
+  font-family: 'Lato',sans-serif;
+}
+
+.tabelSpecial{
+    margin-bottom: 100px !important;
+}
+
+.special1{
+    margin-top: 20px !important;
+}
+
+@media (max-width: 767px) {
+
+  .participanti .aug{
+    margin:0;
+  }
+
+  .participanti .dam{
+    margin:0;
+  }
+
+  .participanti .lip{
+    margin-left:0;
+  }
+
+  .table {
+    color:black;
+    font-size:18px;
+    background-color: white;
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    margin-top:80px;
+  }
+
+}
+
+
+}
